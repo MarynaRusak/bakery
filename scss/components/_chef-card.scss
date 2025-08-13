@@ -1,0 +1,46 @@
+.chef-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+
+  @media screen and (min-width: $bp-desktop) {
+    gap: 30px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+  }
+  &__image {
+    margin-left: 12px;
+    width: 140px;
+    border-radius: 4px 4px 4px 200px;
+    box-shadow: -12px 12px 0 0 var(--color-primary-light),
+      -12px 12px 0 2px var(--color-secondary-dark); /* Обіграна рамочка за допомогою двох тіней*/
+
+    @media screen and (min-width: $bp-desktop) {
+      width: 240px;
+      margin-left: 0;
+      box-shadow: -16px 16px 0 0 var(--color-primary-light),
+        -16px 16px 0 2px var(--color-secondary-dark);
+    }
+  }
+  &__text {
+    font-size: 14px;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

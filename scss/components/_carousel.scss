@@ -1,0 +1,22 @@
+.carousel-button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--color-primary-dark);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  fill: var(--color-primary-dark);
+  flex-shrink: 0; /* 0 означає  що навіть якщо не вистачає місця елемент немає стискатись*/
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+    fill: var(--color-primary-light);
+  }
+  &.next {
+    transform: rotate(180deg);
+  }
+}

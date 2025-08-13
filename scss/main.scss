@@ -1,0 +1,33 @@
+@import './utils/fonts';
+@import './utils/variables';
+
+@import './base';
+@import './utils/utils';
+@import './utils/mixins';
+@import './utils/texts';
+
+@import './components/buttons';
+@import './components/carousel';
+@import './components/chef-card';
+@import './components/format-card';
+@import './components/input';
+@import './components/links';
+@import './components/pagination';
+
+@import './layouts/advantages-section';
+@import './layouts/chefs-section';
+@import './layouts/contacts-section';
+@import './layouts/container';
+@import './layouts/footer';
+@import './layouts/form-terms';
+@import './layouts/formats-section';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/mobile-menu';
+@import './layouts/modal';
+@import './layouts/section';
+@import './layouts/traditions-section';
+
+/*  .circle {
+  @include circle (100px, 100px, green) для застосування міксінів
+} */

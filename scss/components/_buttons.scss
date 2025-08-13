@@ -1,0 +1,23 @@
+/* Buttons */
+.button {
+  display: block;
+  border-radius: 8px;
+  border: 2px solid var(--color-brand-normal);
+  background: var(--color-brand-normal);
+  color: var(--color-primary-light);
+  cursor: pointer;
+  font-weight: 600;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 16px 32px;
+    font-size: 18px;
+  }
+
+  &:hover {
+    background: transparent;
+    color: var(--color-brand-dark);
+  }
+}
